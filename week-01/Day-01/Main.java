@@ -9,9 +9,9 @@ public class Main {
         // -----------------------------------------------------------------
         System.out.println(">>> [TASK 1 & 2] CREATING INDEPENDENT EMPLOYEE OBJECTS <<<\n");
 
-        Employee emp1 = new Employee(101, "Rahul", "Engineering", 50000.0);
-        Employee emp2 = new Employee(102, "Priya", "HR", 40000.0);
-        Employee emp3 = new Employee(103, "Aman", "Finance", 60000.0);
+        Employees emp1 = new Employees(101, "Rahul", "Engineering", 50000.0);
+        Employees emp2 = new Employees(102, "Priya", "HR", 40000.0);
+        Employees emp3 = new Employees(103, "Aman", "Finance", 60000.0);
 
         System.out.println("Initial Details of All 3 Employees:");
         emp1.displayDetails();

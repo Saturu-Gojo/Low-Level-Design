@@ -30,7 +30,7 @@ class Employee {
     }
 }
 
-class Manager extends Employee {
+class Manager extends Employees {
     private String department;
     private int teamSize;
 
@@ -62,7 +62,7 @@ class Manager extends Employee {
     }
 }
 
-class Developer extends Employee {
+class Developer extends Employees {
     private String lang;
     private String proj;
 
@@ -98,7 +98,7 @@ public class Main {
     public static void main(String[] args) {
         Developer e1 = new Developer("parth", "AI/ML");
         Manager m1 = new Manager("Marketing", 20);
-        Employee d1 = new Employee("ABC101", "abc", 50000);
+        Employees d1 = new Employees("ABC101", "abc", 50000);
 
         e1.displayRole();
         m1.displayRole();

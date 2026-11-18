@@ -1,11 +1,11 @@
-public class Employee {
+public class Employees {
     private int employeeId;
     private String name;
     private String department;
     private double salary;
 
     // Parameterized constructor
-    public Employee(int employeeId, String name, String department, double salary) {
+    public Employees(int employeeId, String name, String department, double salary) {
         this.employeeId = employeeId;
         this.name = name;
         this.department = department;
